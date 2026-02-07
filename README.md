@@ -2,7 +2,7 @@
 
 > **"A confidential data spell-checker that runs while you type."**
 
-![SafeType Demo](https://placehold.co/800x400?text=SafeType+Demo+Placeholder) <!-- Replace with actual screenshot or GIF -->
+![SafeType Demo](assets/safetype-demo.png)
 
 SafeType is a privacy-first, local-only developer tool that prevents accidental leaks of sensitive information (API keys, passwords, tokens) in real-time. It runs as a **VS Code Extension** and highlights confidential data directly in your editor, just like a spell-checker.
 
