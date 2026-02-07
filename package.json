@@ -1,0 +1,15 @@
+{
+  "name": "safetype-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w packages/web",
+    "build:core": "npm run build -w packages/core",
+    "test:core": "npm run test -w packages/core"
+  },
+  "devDependencies": {
+     "typescript": "^5.0.0"
+  }
+}
