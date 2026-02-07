@@ -1,0 +1,13 @@
+.vscode/**
+.vscode-test/**
+src/**
+.gitignore
+vsc-extension-quickstart.md
+webpack.config.js
+**/*.map
+# Ignore parent directories
+../web
+../core/src
+../core/tsconfig.json
+# Ensure we keep dist
+!dist/**

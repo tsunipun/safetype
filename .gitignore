@@ -41,6 +41,12 @@ pnpm-debug.log*
 packages/web/dist
 packages/web/*.local
 
+# VS Code Extension
+*.vsix
+packages/vscode/dist
+packages/vscode/out
+packages/vscode/safetype-vscode-*.vsix
+
 # Monorepo
 packages/*/lib
 packages/*/dist
