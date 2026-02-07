@@ -1,0 +1,44 @@
+{
+    "name": "safetype-vscode",
+    "displayName": "SafeType",
+    "description": "Prevent accidental leaks of sensitive information (API keys, emails, passwords, etc.)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "publisher": "safetype",
+    "categories": [
+        "Linters"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "configuration": {
+            "title": "SafeType",
+            "properties": {
+                "safetype.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable SafeType confidential data detection."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run package",
+        "compile": "tsc -w",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.74.0",
+        "@types/node": "18.x",
+        "@types/mocha": "^10.0.1",
+        "typescript": "^5.0.0",
+        "eslint": "^8.28.0"
+    },
+    "dependencies": {
+        "@safetype/core": "*"
+    }
+}

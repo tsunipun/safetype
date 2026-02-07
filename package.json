@@ -7,9 +7,10 @@
   "scripts": {
     "dev:web": "npm run dev -w packages/web",
     "build:core": "npm run build -w packages/core",
-    "test:core": "npm run test -w packages/core"
+    "test:core": "npm run test -w packages/core",
+    "build:vscode": "npm run compile -w packages/vscode"
   },
   "devDependencies": {
-     "typescript": "^5.0.0"
+    "typescript": "^5.0.0"
   }
 }
