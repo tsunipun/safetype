@@ -51,6 +51,14 @@ safetype/
 ## 📦 Installation & Usage
 
 ### VS Code Extension
+
+**Option 1: Manual Install (Recommended for now)**
+1.  Download the **[.vsix package](./packages/vscode/safetype-vscode-0.0.1.vsix)** from this repository.
+2.  Open VS Code and press `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Win).
+3.  Type `Extensions: Install from VSIX...` and select the file.
+4.  Reload quickly, and you're protected!
+
+**Option 2: Build from Source**
 1.  Clone the repository:
     ```bash
     git clone git@github.com:tsunipun/safetype.git
